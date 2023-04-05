@@ -30,6 +30,7 @@ nav .fa-bars {
 }
 nav .navbar-brand {
   font-weight: bold;
+  color: #fff;
 }
 nav .navbar-nav .nav-link.active {
   color: #039dff;
@@ -38,7 +39,11 @@ nav .red-text {
   color: #730505;
 }
 
-.hero-img {
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+header .hero-img {
   position: relative;
   height: 100vh;
   background-image: url("../img/tree.jpg");
@@ -47,31 +52,46 @@ nav .red-text {
   background-attachment: fixed;
   z-index: 0;
 }
-
-.hero-bg {
+header .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -10;
 }
-
-.hero-text {
+header .hero-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   color: #fff;
   height: 100%;
+  padding: 100px;
+  text-align: center;
   z-index: 5;
 }
-
-header h1 {
+header .btn-outline-light {
   text-transform: uppercase;
 }
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  left: 50%;
+  transition: translate(-50%);
+  color: #fff;
+}
 
+@media (min-width: 375) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
 @media (min-width: 992px) {
-  .hero-img {
+  header .hero-img {
     height: 500px;
     background-image: url("../img/treehd.jpg");
   }
