@@ -12,6 +12,18 @@ body {
   background-color: #444;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #039dff;
+}
+
 .shadow-bg {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -88,6 +100,18 @@ header .fa-chevron-down {
   left: 50%;
   transition: translate(-50%);
   color: #fff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
 }
 
 @media (min-width: 375) {
