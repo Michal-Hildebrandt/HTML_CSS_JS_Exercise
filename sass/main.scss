@@ -145,6 +145,17 @@ header {
 		background-color: rgba(0, 0, 0, 0.6);
 		z-index: -5;
 	}
+	.aboutus-hero-item{
+		margin:10px 0;
+
+		i{
+			font-size:36px;
+		}
+
+		.aboutus-hero-title{
+			font-size:24px;
+		}
+	}
 }
 @media (min-width: 375px) {
 	header {
