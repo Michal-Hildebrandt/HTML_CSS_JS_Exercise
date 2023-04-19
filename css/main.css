@@ -106,6 +106,41 @@ header .fa-chevron-down {
   color: #fff;
 }
 
+section .hero-img {
+  position: relative;
+  height: 25vh;
+  background-image: url("../img/forest-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+section .hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+section .row {
+  z-index: 5;
+}
+
+.features .features-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.features .features-card-text {
+  font-size: 14px;
+  color: #fff;
+}
+.features .features-hover {
+  transition: color 0.6s;
+}
+.features .features-hover:hover {
+  color: #039dff;
+}
+
 .aboutus i {
   margin-top: 20px;
   font-size: 30px;
@@ -149,5 +184,8 @@ header .fa-chevron-down {
   header .hero-img {
     height: 500px;
     background-image: url("../img/treehd.jpg");
+  }
+  section .hero-img {
+    background-image: url("../img/forest-large.jpg");
   }
 }/*# sourceMappingURL=main.css.map */
